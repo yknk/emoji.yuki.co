@@ -1,0 +1,12 @@
+body {
+  overflow-y: scroll;
+}
+
+.adsbygoogle {
+  background: transparent;
+}
+
+.adsbygoogle:not(:empty) {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

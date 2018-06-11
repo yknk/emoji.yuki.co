@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<nav class="uk-navbar-container">
+  <div class="uk-container uk-container-small">
+    <div class="uk-navbar">
+      <div class="uk-navbar-left">
+        <div class="uk-navbar-item">
+          <a class="uk-logo" href="/">Emoji Palette</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="uk-section uk-section-default uk-padding-remove-vertical">
+  <div class="uk-container uk-container-small uk-padding-remove-horizontal">
+    <ins class="uk-display-block uk-margin-auto adsbygoogle" data-ad-client="ca-pub-1583360300075056" data-ad-slot="9122701466" data-ad-format="horizontal"></ins>
+  </div>
+</div>
+<div class="uk-section uk-section-small uk-section-default">
+  <div class="uk-container uk-container-small">
+    <ul uk-tab="swiping: false;">
+      <li>
+        <a>スマイリーと人々</a>
+      </li>
+      <li>
+        <a>動物と自然</a>
+      </li>
+      <li>
+        <a>食べ物と飲み物</a>
+      </li>
+      <li>
+        <a>旅行と場所</a>
+      </li>
+      <li>
+        <a>活動</a>
+      </li>
+      <li>
+        <a>物</a>
+      </li>
+      <li>
+        <a>記号</a>
+      </li>
+      <li>
+        <a>旗</a>
+      </li>
+    </ul>
+    <ul class="uk-switcher">
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 0 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 1 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 2 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 3 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 4 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 5 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 6 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+      <li>
+        <div class="uk-grid-small" uk-grid>
+          {%- for test in site.data.emoji -%}
+          {%- if test.group == 7 -%}
+          <div class="uk-width-auto">
+            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}"><img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}"></a>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="uk-section uk-padding-remove-vertical uk-section-default">
+  <div class="uk-container uk-container-small uk-padding-remove-horizontal">
+    <ins class="uk-display-block uk-margin-auto adsbygoogle" data-ad-client="ca-pub-1583360300075056" data-ad-slot="9122701466" data-ad-format="horizontal"></ins>
+  </div>
+</div>
+<div class="uk-section uk-section-small uk-section-secondary">
+  <div class="uk-container uk-container-small">
+    <dl class="uk-description-list">
+      <dt>
+        <a href="https://github.com/twitter/twemoji">Twitter Emoji (Twemoji)</a>
+      </dt>
+      <dd>Copyright 2018 Twitter, Inc and other contributors</dd>
+      <dd>Graphics licensed under <a class="uk-link-text" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></dd>
+    </dl>
+  </div>
+</div>
