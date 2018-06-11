@@ -49,11 +49,11 @@ layout: default
     <ul class="uk-switcher">
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 0 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 0 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
@@ -62,11 +62,11 @@ layout: default
       </li>
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 1 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 1 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
@@ -75,11 +75,11 @@ layout: default
       </li>
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 2 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 2 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
@@ -88,11 +88,11 @@ layout: default
       </li>
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 3 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 3 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
@@ -101,11 +101,11 @@ layout: default
       </li>
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 4 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 4 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
@@ -114,11 +114,11 @@ layout: default
       </li>
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 5 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 5 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
@@ -127,11 +127,11 @@ layout: default
       </li>
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 6 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 6 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
@@ -140,11 +140,11 @@ layout: default
       </li>
       <li>
         <div class="uk-grid-small" uk-grid>
-          {%- for test in site.data.emoji -%}
-          {%- if test.group == 7 -%}
+          {%- for emoji in site.data.emoji -%}
+          {%- if emoji.group == 7 -%}
           <div class="uk-width-auto">
-            <a class="copy" title="{{ test.annotation | escape }}" data-clipboard-text="{{ test.emoji }}">
-              <img src="https://twemoji.maxcdn.com/2/72x72/{{ test.hexcode | downcase }}.png" width="36" height="36" alt="{{ test.annotation | escape }}">
+            <a class="copy" title="{{ emoji.annotation | escape }}" data-clipboard-text="{{ emoji.emoji }}">
+              <img src="https://twemoji.maxcdn.com/2/72x72/{{ emoji.hexcode | downcase }}.png" width="36" height="36" alt="{{ emoji.annotation | escape }}">
             </a>
           </div>
           {%- endif -%}
