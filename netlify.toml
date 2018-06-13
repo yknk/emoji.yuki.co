@@ -2,6 +2,12 @@
 publish = "_site"
 command = "jekyll build"
 
+[[redirects]]
+from = "http://emoji-yuki-co.netlify.com/*"
+to = "https://emoji-yuki-co.netlify.com/:splat"
+status = 301
+force = true
+
 [[headers]]
 for = "/*"
 
