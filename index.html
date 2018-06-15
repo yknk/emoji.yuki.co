@@ -12,6 +12,11 @@ layout: default
           </h1>
         </div>
       </div>
+      <div class="uk-navbar-right">
+        <div class="uk-navbar-item">
+          <a class="uk-icon-button" title="このサイトについて" uk-icon="icon: info" uk-toggle="target: #about"></a>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
@@ -172,5 +177,28 @@ layout: default
       <dd>Copyright (c) 2014 Twitter, Inc and other contributors</dd>
       <dd>Graphics licensed under <a class="uk-link-text" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></dd>
     </dl>
+  </div>
+</div>
+<div id="about" uk-modal>
+  <div class="uk-modal-dialog" style="width: 900px;">
+    <button class="uk-modal-close-default" type="button" uk-close></button>
+    <div class="uk-modal-header">
+      <h2 class="uk-h3">このサイトについて</h2>
+    </div>
+    <div class="uk-modal-body">
+      <p class="uk-text-lead">Emoji Palette（絵文字パレット）</p>
+      <p>絵文字をワンクリックでコピーできるサイトです。</p>
+      <p>
+        <a href="https://github.com/yknk/emoji.yuki.co">GitHub - yknk/emoji.yuki.co</a>
+      </p>
+      <h3 class="uk-h4 uk-heading-line">
+        <span>利用している広告配信サービス</span>
+      </h3>
+      <p>このサイトでは、Google AdSenseを利用しています。<br>Google AdSenseは、クッキーを利用して過去のアクセス情報に基づいた適切な広告を配信します。<br>ユーザーは、<a href="https://adssettings.google.com/">広告設定</a>でパーソナライズ広告を無効にすることができます。</p>
+      <h3 class="uk-h4 uk-heading-line">
+        <span>利用しているアクセス解析サービス</span>
+      </h3>
+      <p>このサイトでは、Google Analyticsを利用しています。<br>Google Analyticsは、クッキーを利用してサイトの利用状況に関するデータを収集します。<br>Google Analyticsでデータが収集、処理される仕組みについては、<a href="https://policies.google.com/technologies/partner-sites">こちら</a>をご覧ください。</p>
+    </div>
   </div>
 </div>
