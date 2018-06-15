@@ -10,8 +10,6 @@
 
     $('a[href^="https://"], a[href^="http://"]').attr('target', '_blank');
 
-    $.getScript('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-
     if (!navigator.doNotTrack) {
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
