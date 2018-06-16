@@ -14,6 +14,12 @@ to = "https://emoji.yuki.co/:splat"
 status = 301
 force = true
 
+[[redirects]]
+from = "https://emoji-yuki-co.netlify.com/*"
+to = "https://emoji.yuki.co/:splat"
+status = 301
+force = true
+
 [[headers]]
 for = "/*"
 
