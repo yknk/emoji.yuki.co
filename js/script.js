@@ -20,20 +20,5 @@
       ga('set', 'anonymizeIp', true);
       ga('send', 'pageview');
     }
-
-    if (!navigator.doNotTrack) {
-      $.getScript('https://platform.twitter.com/widgets.js');
-      $.getScript('https://connect.facebook.net/ja_JP/sdk.js');
-      $.getScript('https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js');
-    }
-
-    if (!navigator.doNotTrack) {
-      window.fbAsyncInit = function() {
-        FB.init({
-          version: 'v3.0',
-          xfbml: true
-        });
-      };
-    }
   });
 })(jQuery);
