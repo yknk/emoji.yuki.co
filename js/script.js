@@ -8,7 +8,7 @@
       });
     });
 
-    $('a[href^="https://"], a[href^="http://"]').attr('target', '_blank');
+    $('a[href^="https://"], a[href^="http://"]').not('[target]').attr('target', '_blank');
 
     if (!navigator.doNotTrack) {
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
