@@ -2,6 +2,9 @@
 publish = "_site"
 command = "jekyll build"
 
+[context.production.environment]
+JEKYLL_ENV = "production"
+
 [[redirects]]
 from = "http://emoji-yuki-co.netlify.com/*"
 to = "https://emoji-yuki-co.netlify.com/:splat"
